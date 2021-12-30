@@ -1,0 +1,44 @@
+:root {
+	--clr-pale-blue: 225 100% 94%;
+	--clr-bright-blue: 245 75% 52%;
+	--clr-very-pale-blue: 225 100% 98%;
+	--clr-desaturated-blue: 224 23% 55%;
+	--clr-dark-blue: 223 47% 23%;
+
+	--ff-red-hat: 'Red Hat Display', sans-serif;
+}
+
+/* ----------CSS RESET---------- */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+button {
+	color: inherit;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
