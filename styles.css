@@ -61,6 +61,12 @@ body {
 	background-size: contain;
 }
 
+@media (min-width: 984px) {
+	body {
+		background-image: url('./images/pattern-background-desktop.svg');
+	}
+}
+
 /* THE card */
 
 main {
@@ -69,6 +75,7 @@ main {
 	align-items: center;
 	gap: 1rem;
 
+	min-width: 20rem;
 	max-width: 25rem;
 
 	background-color: hsl(0, 0%, 100%);
